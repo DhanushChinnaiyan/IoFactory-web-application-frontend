@@ -1,0 +1,32 @@
+.card{
+    display: grid;
+    gap: 10px;
+}
+
+.bioContainer {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    color: #333;
+    text-align: center;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .info p {
+    margin-bottom: 10px;
+  }
+  
+  .info ul {
+    padding-left: 20px;
+  }
+  

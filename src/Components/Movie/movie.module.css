@@ -1,0 +1,50 @@
+.container{
+margin: calc(2vw + 10px) calc(2vw + 10px) 0 calc(2vw + 10px) ;
+padding: calc(2vw + 10px);
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.cardContent{
+    background-color: rgb(168, 169, 170);
+}
+
+.cardAction:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: ease-in-out 150ms;
+}
+
+.cardContent div{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.cardContent p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.card{
+    display: grid;
+    gap: 10px;
+}
+
+.singleMovie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+  }
+  
+  .singleMovieContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+  }
